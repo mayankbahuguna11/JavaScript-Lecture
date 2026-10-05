@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Set time out - executes only once after the delay -->
+    <script>
+        // setTimeout(function(){
+        //      alert("login to this site")
+        //     //open("https://www.saucedemo.com/")
+        // }, 4000);
+
+        //is a built in javascript timer function that executes a function only once after a specified delay(in milliseconds)
+        //used for one time task
+        //stopped uding clearTimeout()
+
+        let count=0;
+         let timer = setInterval(function(){
+            document.write("hello world <br>")
+            count++;
+
+            if(count === 5)
+         {
+            clearInterval(timer)
+         }
+         },2000);
+    </script>
+</body>
+</html>
