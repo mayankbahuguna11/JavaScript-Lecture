@@ -40,3 +40,33 @@ console.log(name);
 let resu = name.slice(1, 3);
 
 console.log(resu);
+
+console.log("\n");
+
+// splice: Can add, remove or replace elements.
+console.log(name);
+
+name.splice(0,2);
+// starting from index 0, remove 2 elements
+
+console.log(name);
+
+console.log("\n");
+
+let names = ["Raj", "Vijay", "Ajay", "Karan"];
+
+names.splice(1, 0, "Rishab", "Pratik");
+// insert at first index and remove 0 elements
+
+console.log(names);
+
+console.log("\n");
+
+let data = ["Max", "Josh", "Hanson", "Shawn"];
+
+console.log(data);
+
+data.splice(0, 3, "Karan", "Ajay");
+// add at index 0 and remove 3 elements from that index
+
+console.log(data);
