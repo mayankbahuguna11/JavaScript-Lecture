@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Document Object Model (DOM): Programming interface that represents a HTML document as a tree of objects.
+         It allows Javascript to add, remove, access or modify elements from a web page. -->
+         
+    <h1 id="printdata"></h1>
+
+    <p class="demo"></p>
+    <p class="demo"></p>
+    <p class="demo"></p>
+
+    <script>
+        document.getElementById("printdata").innerHTML="Welcome";
+        document.getElementById("printdata").style.color="blue";
+
+        document.getElementsByClassName("demo")[0].innerHTML="Blue";
+        document.getElementsByClassName("demo")[2].innerHTML="Green";
+    </script>
+
+</body>
+</html>
