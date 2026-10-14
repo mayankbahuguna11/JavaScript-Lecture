@@ -10,10 +10,11 @@
          It allows Javascript to add, remove, access or modify elements from a web page. -->
          
     <h1 id="printdata"></h1>
-
+    <h3></h3>
     <p class="demo"></p>
     <p class="demo"></p>
     <p class="demo"></p>
+    <h3>red</h3>
 
     <script>
         document.getElementById("printdata").innerHTML="Welcome";
@@ -21,6 +22,9 @@
 
         document.getElementsByClassName("demo")[0].innerHTML="Blue";
         document.getElementsByClassName("demo")[2].innerHTML="Green";
+
+        document.getElementsByTagName("h3")[1].style.color="red";
+        document.getElementsByTagName("h3")[0].innerHTML="This is TagName";
     </script>
 
 </body>

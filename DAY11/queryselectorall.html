@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p class="demo">Hello</p>
+    <p class="demo">Welcome</p>
+    <p class="demo">Javascript</p>
+    <button onmouseover="changecolor()" onmouseleave="defaultcolor()">submit</button>
+
+    <script>
+
+        function changecolor(){
+            let data = document.querySelectorAll(".demo");
+            // querySelectorAll: used to select all HTML elements that match a specified CSS selector.
+            data[0].style.color="red";
+            data[1].style.color="blue";
+            data[2].style.color="green";
+        };
+
+        function defaultcolor(){
+            let data = document.querySelectorAll(".demo");
+            // querySelectorAll: used to select all HTML elements that match a specified CSS selector.
+            data[0].style.color="black";
+            data[1].style.color="black";
+            data[2].style.color="black";
+        };
+
+    </script>
+
+</body>
+</html>
