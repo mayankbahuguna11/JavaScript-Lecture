@@ -1,0 +1,24 @@
+{
+    "demoproducts":[
+        {
+            "id": "1",
+            "Title": "Laptop",
+            "Price": 150000,
+            "image": "https://imgs.search.brave.com/Zl9xu6YUFAvZG2G06sxKiio9s7g4-tv1z1RfLibqHi4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L2M0/c0h6R0FyYVJKb20z/YUZEd0djcW0tMTI4/MC04MC5qcGc"
+        },
+
+        {
+            "id": "2",
+            "Title": "Mobile Phone",
+            "Price": 300000,
+            "image": "https://imgs.search.brave.com/lsWmhHl9VRq7h0c0ho6lmmfhwdhFlQPHWPfJycFy5cs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/OTEtaW1nLmNvbS9w/aWN0dXJlcy8xNzcz/MjEtdjctYXBwbGUt/aXBob25lLWR1by1t/b2JpbGUtcGhvbmUt/aHJlcy0xLmpwZz90/cg"
+        },
+
+        {
+            "id": "3",
+            "Title": "Headphones",
+            "Price": 15000,
+            "image": "https://imgs.search.brave.com/1yYKF58IxdFbT98j6WqwTAEjwkzKBd1EdsmYk5LvToI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zLmFs/aWNkbi5jb20vQHNj/MDQva2YvSDU2ZTYy/NDg4OTlmZTQ4NzBi/MDZkM2RmMTNkODdm/NTBiVS5wbmc"
+        }
+    ]
+}
